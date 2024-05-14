@@ -1,1 +1,31 @@
 # qa_python
+
+- test_add_new_book_correct_length_book_added - добавление названия книги корректной длины (1/2-39/40)
+- test_add_new_book_incorrect_length_book_not_added - добавление названия книги некорректной длины (0/41/42+)
+- test_add_new_book_add_two_books_books_added - добавление двух книг
+- test_add_new_book_add_same_book_book_not_added - добавление книги, которая уже есть в словаре
+- 
+- test_set_book_genre_genre_set - добавление существующего жанра к существующей книге
+- test_set_book_genre_no_book_genre_not_set - добавление существующего жанра к несуществующей книге
+- test_set_book_genre_no_genre_genre_not_set - добавление несуществующего жанра к существующей книге
+- 
+- test_get_book_genre_book_exist_genre_got - получение жанра существующей книги
+- test_get_book_genre_book_not_exist_genre_not_got - получение жанра несуществующей книги
+- 
+- test_get_books_with_specific_genre_true_data_books_list_returned - получение существующих книг существующего жанра
+- test_get_books_with_specific_genre_no_pair_empty_list_returned - получение несуществующих книг существующего жанра
+- test_get_books_with_specific_genre_no_genre_empty_list_returned - получение существующих книг несуществующего жанра
+- 
+- test_get_books_genre_books_dict_returned - получение словаря всех книг и их жанров
+- 
+- test_get_books_for_children_books_for_child_in_dict_child_books_returned - получение детских книг, которые существуют в словаре
+- test_get_books_for_children_no_books_for_child_empty_list_returned - получение детских книг, если их нет в словаре
+- 
+- test_add_book_in_favorites_book_added - добавение существующей книги в избранное
+- test_add_book_in_favorites_no_such_book_book_not_added - добавления несуществующей книги в избранное
+- test_add_book_in_favorites_book_already_in_favorites_book_not_added - повторное добавение существующей книги, уже находящейся в избранном, в избранное
+- 
+- test_delete_book_from_favorites_book_in_favorites_book_deleted - удаление существующей книги из избранного
+- test_delete_book_from_favorites_no_such_book_in_favorites_nothing_deleted - удаление несуществующей книги из избранного
+- 
+- test_get_list_of_favorites_books_favorites_list_got - получение списка избранных книг
